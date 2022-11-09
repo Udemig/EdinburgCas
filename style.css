@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(186, 197, 28, 0.7)), url('images/bg.jpeg');
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+/*  Navbar */
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.bi{
+    margin-left: 10px;
+    color: white;
+    font-size: 21px;
+}
+
+/* -- -- - -Content -- - - -- - - - */
+
+/* Row */
+.row {
+    display: flex;
+    height: 90%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 45%;
+    margin-left: 10px;
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+}
+
+p{
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+button{
+    width: 180px;
+    color: black;
+    font-size: 15px;
+    padding: 12px 0;
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.card{
+    background-color: yellowgreen;
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(209, 10, 10, 0.7)), url('images/istanbul.jpeg');
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    color: white;
+    text-shadow: 0 0 5px gray;
+    font-size: 20px;
+}
+
+.card p {
+    text-shadow: 0 0 15px black;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
