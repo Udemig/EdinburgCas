@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
@@ -87,7 +87,6 @@ button{
 }
 
 .card{
-    background-color: yellowgreen;
     width: 200px;
     height: 250px;
     display: inline-block;
